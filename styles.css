@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    background: url(./images/bg-hero-mobile.svg) no-repeat;
+    background-size: contain;
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5rem;
+}
+
+header .header-button {
+    background-color: white;
+
+    color: black;
+    text-transform: capitalize;
+
+    padding: 0.5em 2em;
+
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #808d99;
+}
