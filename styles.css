@@ -20,6 +20,14 @@ body {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 button {
     font-weight: 700;
     border: none;
@@ -141,4 +149,16 @@ section img {
     padding: 0 5%;
     font-size: 1rem;
     color: slategrey;
+}
+
+footer {
+    background-color: #00252e;
+    color: white;
+
+    position: relative;
+    top: -104px;
+    z-index: -1;
+
+    padding: 5vw;
+    padding-top: 5rem;
 }
