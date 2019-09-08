@@ -128,8 +128,11 @@ section img {
 }
 
 .commit-section {
-    margin: 50px auto;
+    margin: 0 auto;
     width: 90%;
+
+    position: relative;
+    top: 55px;
 }
 
 .commit-section h2 {
@@ -155,10 +158,28 @@ footer {
     background-color: #00252e;
     color: white;
 
-    position: relative;
-    top: -104px;
     z-index: -1;
 
     padding: 5vw;
-    padding-top: 5rem;
+    padding-top: 9rem;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact .icon {
+    margin-top: 0.25rem;
+    margin-right: 3rem;
+    height: 1rem;
+}
+
+.contact p {
+    display: inline-block;
+    margin-top: 0;
 }
